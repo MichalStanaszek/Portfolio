@@ -1,0 +1,160 @@
+body {
+  background: #f5f7fa;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  width: 370px;
+  background: #1e2939;
+}
+
+.cv-photo {
+  /* margin-top: 25px; */
+}
+
+.header-secondary {
+  color: #ffffff;
+}
+
+.contact-links {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.list-secondary {
+  color: #fb6d3a;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+.list-secondary-item {
+  color: #ffffff;
+}
+
+.contact-block {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+
+.skills-block {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+main {
+  padding: 102px 88px 102px 88px;
+}
+
+.main-description {
+  /* width: 400px; */
+}
+
+.job-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.projects {
+  width: 485px;
+  margin-bottom: 51px;
+}
+
+.list-primary {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.header-primary {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+
+.list-primary-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+}
+
+.job-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.highlight {
+  color: #fb6d3a;
+}
+
+.job-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.job-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.work-experience {
+  width: 525px;
+  margin-bottom: 16px;
+}
+
+.manager1 {
+  width: 525px;
+  margin-bottom: 20px;
+}
+
+.manager2 {
+  width: 525px;
+  margin-bottom: 43px;
+}
+
+.education {
+  /* width: 242px; */
+}
