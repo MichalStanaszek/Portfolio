@@ -16,6 +16,10 @@ aside {
   padding: 10px 20px;
 }
 
+.aside-block {
+  margin-bottom: 40px;
+}
+
 h1 {
   font-weight: 700;
   font-size: 45px;
@@ -25,6 +29,7 @@ h1 {
 .cv-photo {
   border: 5px solid whitesmoke;
   border-radius: 50%;
+  margin-bottom: 30px;
 }
 
 .wrapper {
@@ -39,7 +44,7 @@ h1 {
 
 .header-aside {
   color: #ffffff;
-  text-decoration: underline;
+  margin: 0;
 }
 
 .contact {
@@ -93,17 +98,11 @@ h1 {
   color: #ffffff;
 }
 
-.job-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-}
-
 .description {
-  font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 40px;
+  text-align: justify;
 }
 
 .projects {
@@ -128,8 +127,6 @@ h1 {
 }
 
 .list-primary-item {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   color: #595959;
   text-decoration: none;
@@ -146,24 +143,18 @@ h1 {
 }
 
 .job-date {
-  font-weight: 400;
-  font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
 }
 
 .job-list {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   color: #595959;
   padding-left: 0;
   list-style-position: inside;
 }
 
 .work-experience {
-  width: 525px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .manager1 {
