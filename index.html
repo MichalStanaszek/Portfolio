@@ -18,10 +18,8 @@
     <div class="wrapper">
       <main>
         <div class="main-description">
-          <h2 class="job-title">Fullstack Developer</h2>
-
           <h1>Michał Stanaszek</h1>
-
+          <h2 class="job-title">Front-End Developer</h2>
           <p class="description">
             Od 5 lat pracuję jako planista logistyki. W tym czasie poznałem
             specyfikę customer service, automotive i FMCG. W swojej pracy
@@ -60,6 +58,13 @@
           </h2>
           <p class="job-date">Styczeń 2023 - Grudzień 2023</p>
           <h3 class="job-name">HTML + CSS</h3>
+          <p style="color: red">
+            <b
+              >dopisać roadmape co już wiem, czego się uczę (pending z kursu) i
+              co jeszcze chciałbym poznać po kursie (np. TypeScript, Tailwind,
+              React Native, jakiś backend PHP/Java</b
+            >
+          </p>
           <ul class="job-list">
             <li>
               <span class="list-primary-item">
@@ -159,28 +164,40 @@
         <img
           class="cv-photo"
           src="./Images/profilowe CV.jpg"
-          width="370"
+          width="250"
           alt="zdjęcie profilowe"
         />
 
-        <div class="contact-block">
-          <h2 class="header-secondary">Kontakt</h2>
-
-          <p class="contact-links">
-            <span class="bold">Tel:</span>
-            <a class="contact-links" href="tel:+48 733 920 507"
-              >+48 733 920 507</a
-            >
-            <br />
-            <span class="bold">Email:</span>
-            <a class="contact-links" href="mailto:michal.stanaszek@gmail.com"
-              >michal.stanaszek@gmail.com</a
-            >
-          </p>
+        <div>
+          <h2 class="header-aside">Kontakt</h2>
+          <ul class="contact">
+            <li class="contact__list">
+              <a class="contact__link" href="tel:+48 733 920 507">
+                <svg class="icon" width="15px" height="15px">
+                  <use href="./Images/Icon/icons.svg#icon-mobile"></use>
+                </svg>
+                +48 733 920 507
+              </a>
+            </li>
+            <li class="contact__list">
+              <a class="contact__link" href="mailto:michal.stanaszek@gmail.com">
+                <svg class="icon" width="15px" height="15px">
+                  <use href="./Images/Icon/icons.svg#icon-mail2"></use>
+                </svg>
+                michal.stanaszek@gmail.com
+              </a>
+            </li>
+            <li class="contact__list">
+              <svg class="icon" width="15px" height="15px">
+                <use href="./Images/Icon/icons.svg#icon-location"></use>
+              </svg>
+              Katowice (woj. Śląskie)
+            </li>
+          </ul>
         </div>
 
-        <div class="skills-block">
-          <h2 class="header-secondary">Umiejętności twarde</h2>
+        <div>
+          <h2 class="header-aside">Umiejętności twarde</h2>
           <ul class="list-secondary">
             <li><span class="list-secondary-item">HTML + CSS/SASS</span></li>
             <li>
@@ -193,8 +210,8 @@
             <li><span class="list-secondary-item">MongoDB</span></li>
           </ul>
         </div>
-        <div class="skills-block">
-          <h2 class="header-secondary">Umiejętności miękkie</h2>
+        <div>
+          <h2 class="header-aside">Umiejętności miękkie</h2>
           <ul class="list-secondary">
             <li>
               <span class="list-secondary-item">Praca w grupie</span>
@@ -205,8 +222,8 @@
             </li>
           </ul>
         </div>
-        <div class="skills-block">
-          <h2 class="header-secondary">Edukacja</h2>
+        <div>
+          <h2 class="header-aside">Edukacja</h2>
           <h3 class="job-name">
             <span class="highlight">Uniwersytet Ekonomiczny w Katowicach </span>
           </h3>
