@@ -57,8 +57,9 @@ h1 {
   color: #ffffff;
 }
 
-.bold {
-  font-weight: 700;
+.contact__link:hover,
+.contact__link:focus {
+  color: var(--accent-color);
 }
 
 .icon {
