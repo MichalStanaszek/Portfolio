@@ -66,6 +66,21 @@ h1 {
   fill: var(--accent-color);
 }
 
+.social-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icon--hover:hover,
+.social-icon--hover:focus {
+  fill: var(--accent-color);
+  cursor: pointer;
+}
+
+.social-icon-fill {
+  fill: #ffffff;
+}
+
 .list-secondary {
   color: var(--accent-color);
   font-size: 14px;
