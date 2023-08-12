@@ -12,7 +12,7 @@ body {
 main {
   padding: 50px;
   text-align: justify;
-  height: 1579px;
+  height: 1582px;
 }
 
 aside {
@@ -158,4 +158,10 @@ h1 {
 
 .work-experience {
   margin-bottom: 20px;
+}
+
+.rodo {
+  font-style: italic;
+  opacity: 0.4;
+  margin-top: 140px;
 }
