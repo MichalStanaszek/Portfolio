@@ -117,9 +117,14 @@ h1 {
 }
 
 .job-name {
+  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+}
+
+.job-name--svg {
+  padding: 0 5px;
 }
 
 .highlight {
