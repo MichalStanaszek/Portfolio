@@ -5,11 +5,14 @@
 body {
   background: #f5f7fa;
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+  min-height: 100%;
 }
 
 main {
   padding: 50px;
   text-align: justify;
+  height: 1579px;
 }
 
 aside {
@@ -116,9 +119,14 @@ h1 {
   color: #595959;
 }
 
-.job-name {
+.tech-skills {
   display: flex;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.job-name {
   font-size: 16px;
   line-height: 20px;
 }
