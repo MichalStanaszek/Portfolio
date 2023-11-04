@@ -9,6 +9,16 @@ body {
   min-height: 100%;
 }
 
+.nav {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-link {
+  padding: 0 10px;
+}
+
 main {
   padding: 50px;
   text-align: justify;
@@ -163,5 +173,5 @@ h1 {
 .rodo {
   font-style: italic;
   opacity: 0.4;
-  margin-top: 140px;
+  margin-top: 100px;
 }
