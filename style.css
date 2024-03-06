@@ -154,12 +154,6 @@ h1 {
   color: #a8a8a8;
 }
 
-.job-details {
-  font-weight: 400;
-  color: var(--accent-color);
-  opacity: 0.5;
-}
-
 .job-list {
   color: #595959;
   padding-left: 0;
